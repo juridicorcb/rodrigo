@@ -49,9 +49,9 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/final-d1.jpg", "/final-d2.jpg", "/final-d3.jpg", "/final-d4.jpg", "/final-d5.jpg", 
-    "/final-d6.jpg", "/final-d7.jpg", "/final-d8.jpg", "/final-d9.jpg", "/final-d10.jpg", 
-    "/final-d11.jpg", "/final-d12.jpg", "/final-d13.jpg", "/final-d14.jpg"
+    "/f-01.jpg", "/f-02.jpg", "/f-03.jpg", "/f-04.jpg", "/f-05.jpg", 
+    "/f-06.jpg", "/f-07.jpg", "/f-08.jpg", "/f-09.jpg", "/f-10.png", 
+    "/f-11.jpg", "/f-12.jpg", "/f-13.jpg", "/f-14.jpg", "/f-15.jpg", "/f-16.jpg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
