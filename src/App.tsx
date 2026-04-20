@@ -28,6 +28,24 @@ import {
   ChevronRight
 } from "lucide-react";
 
+// Asset Imports
+import logo from "./assets/logo.png";
+import rodrigo from "./assets/rodrigo.jpg";
+import feed5 from "./assets/feed-5.jpeg";
+import feed7 from "./assets/feed-7.jpeg";
+import igor from "./assets/igor.jpeg";
+import bosque from "./assets/bosque.png";
+import lara from "./assets/lara.jpeg";
+import wpp01 from "./assets/wpp-01.jpeg";
+import wpp02 from "./assets/wpp-02.jpeg";
+import wpp11_1 from "./assets/wpp-11-1.jpeg";
+import wpp11 from "./assets/wpp-11.jpeg";
+import okFeed6 from "./assets/ok-feed-6.jpeg";
+import feed16 from "./assets/feed-16.jpeg";
+import feed12 from "./assets/feed-12.jpeg";
+import feed11 from "./assets/feed-11.jpeg";
+import feed9 from "./assets/feed-9.jpeg";
+
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
@@ -49,20 +67,20 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/img-feed-5.jpeg",
-    "/img-feed-7.jpeg",
-    "/img-igor.jpeg",
-    "/img-bosque.png",
-    "/img-lara.jpeg",
-    "/img-wpp-01.jpeg",
-    "/img-wpp-02.jpeg",
-    "/img-wpp-11-1.jpeg",
-    "/img-wpp-11.jpeg",
-    "/img-ok-feed-6.jpeg",
-    "/img-feed-16.jpeg",
-    "/img-feed-12.jpeg",
-    "/img-feed-11.jpeg",
-    "/img-feed-9.jpeg"
+    feed5,
+    feed7,
+    igor,
+    bosque,
+    lara,
+    wpp01,
+    wpp02,
+    wpp11_1,
+    wpp11,
+    okFeed6,
+    feed16,
+    feed12,
+    feed11,
+    feed9
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -144,7 +162,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/marca-oficial.png" 
+              src={logo} 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -673,7 +691,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/foto-perfil-rodrigo.jpg" 
+              src={rodrigo} 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
