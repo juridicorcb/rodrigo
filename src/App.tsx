@@ -28,6 +28,24 @@ import {
   ChevronRight
 } from "lucide-react";
 
+// Image Imports
+import logo from "./img/logo.png";
+import perfil from "./img/perfil.jpg";
+import d1 from "./img/d1.jpg";
+import d2 from "./img/d2.jpg";
+import d3 from "./img/d3.jpg";
+import d4 from "./img/d4.png";
+import d5 from "./img/d5.jpg";
+import d6 from "./img/d6.jpg";
+import d7 from "./img/d7.jpg";
+import d8 from "./img/d8.jpg";
+import d9 from "./img/d9.jpg";
+import d10 from "./img/d10.jpg";
+import d11 from "./img/d11.jpg";
+import d12 from "./img/d12.jpg";
+import d13 from "./img/d13.jpg";
+import d14 from "./img/d14.jpg";
+
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
@@ -49,20 +67,7 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/depo-01.jpeg",
-    "/depo-02.jpeg",
-    "/depo-03.jpeg",
-    "/depo-04.png",
-    "/depo-05.jpeg",
-    "/depo-06.jpeg",
-    "/depo-07.jpeg",
-    "/depo-08.jpeg",
-    "/depo-09.jpeg",
-    "/depo-10.jpeg",
-    "/depo-11.jpeg",
-    "/depo-12.jpeg",
-    "/depo-13.jpeg",
-    "/depo-14.jpeg"
+    d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12, d13, d14
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -144,7 +149,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/legal-comercial-logo.png" 
+              src={logo} 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -673,7 +678,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/perfil-consultor.jpg" 
+              src={perfil} 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
