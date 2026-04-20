@@ -49,9 +49,9 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/feedbacks  (9).jpeg", "/feedbacks  (11).jpeg", "/feedbacks  (12).jpeg", "/feedbacks  (16).jpeg", "/ok-feedbacks  (6).jpeg", 
-    "/WhatsApp Image 2026-03-11 at 14.48.41.jpeg", "/WhatsApp Image 2026-03-11 at 14.48.41 (1).jpeg", "/WhatsApp Image 2026-03-02 at 12.19.46.jpeg", "/WhatsApp Image 2026-03-01 at 12.42.46.jpeg", "/Bosquerolli.PNG", 
-    "/IGOR ABREU MARÇO.jpeg", "/WhatsApp Image 2026-03-01 at 12.42.46 (1).jpeg", "/WhatsApp Image 2026-02-23 at 09.29.56.jpeg", "/lara .jpeg", "/feedbacks  (5).jpeg", "/feedbacks  (7).jpeg"
+    "/FDB.jpg", "/FDB (2).jpg", "/FDB (3).jpg", "/FDB (4).jpg", "/FDB (5).jpg", 
+    "/FDB (6).jpg", "/FDB (7).jpg", "/FDB (8).jpg", "/FDB (9).jpg", "/FDB (10).jpg", 
+    "/FDB (11).jpg", "/FDB (12).jpg", "/FDB (13).jpg", "/FDB (14).jpg", "/FDB (15).jpg", "/FDB (16).jpg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -133,7 +133,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/legal-comercial-logo.png" 
+              src="/logo.png" 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -662,7 +662,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/perfil-consultor.jpg" 
+              src="/perfil.jpg" 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
