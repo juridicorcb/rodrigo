@@ -144,7 +144,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/LOGO.png" 
+              src="/logo.png" 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
