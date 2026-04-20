@@ -49,9 +49,9 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/FDB.jpg", "/FDB (2).jpg", "/FDB (3).jpg", "/FDB (4).jpg", "/FDB (5).jpg", 
-    "/FDB (6).jpg", "/FDB (7).jpg", "/FDB (8).jpg", "/FDB (9).jpg", "/FDB (10).jpg", 
-    "/FDB (11).jpg", "/FDB (12).jpg", "/FDB (13).jpg", "/FDB (14).jpg", "/FDB (15).jpg", "/FDB (16).jpg"
+    "/FDB.jpeg", "/FDB (2).jpeg", "/FDB (3).jpeg", "/FDB (4).jpeg", "/FDB (5).jpeg", 
+    "/FDB (6).jpeg", "/FDB (7).jpeg", "/FDB (8).jpeg", "/FDB (9).jpeg", "/FDB (10).jpeg", 
+    "/FDB (11).jpeg", "/FDB (12).jpeg", "/FDB (13).jpeg", "/FDB (14).jpeg", "/FDB (15).jpeg", "/FDB (16).png"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -662,7 +662,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/perfil.jpg" 
+              src="/perfil.jpeg" 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
