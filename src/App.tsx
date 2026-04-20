@@ -49,9 +49,9 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/s-d1.jpg", "/s-d2.jpg", "/s-d3.jpg", "/s-d4.png", "/s-d5.jpg", 
-    "/s-d6.jpg", "/s-d7.jpg", "/s-d8.jpg", "/s-d9.jpg", "/s-d10.jpg", 
-    "/s-d11.jpg", "/s-d12.jpg", "/s-d13.jpg", "/s-d14.jpg"
+    "/final-d1.jpg", "/final-d2.jpg", "/final-d3.jpg", "/final-d4.jpg", "/final-d5.jpg", 
+    "/final-d6.jpg", "/final-d7.jpg", "/final-d8.jpg", "/final-d9.jpg", "/final-d10.jpg", 
+    "/final-d11.jpg", "/final-d12.jpg", "/final-d13.jpg", "/final-d14.jpg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -133,7 +133,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/s-logo.png" 
+              src="/final-logo.png" 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -662,7 +662,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/s-perfil.jpg" 
+              src="/final-perfil.jpg" 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
