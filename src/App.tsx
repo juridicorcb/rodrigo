@@ -49,20 +49,20 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/feedbacks  (5).jpeg",
-    "/feedbacks  (7).jpeg",
-    "/IGOR ABREU MARÇO.jpeg",
-    "/Bosquerolli.PNG",
-    "/lara .jpeg",
-    "/WhatsApp Image 2026-03-01 at 12.42.46.jpeg",
-    "/WhatsApp Image 2026-03-02 at 12.19.46.jpeg",
-    "/WhatsApp Image 2026-03-11 at 14.48.41 (1).jpeg",
-    "/WhatsApp Image 2026-03-11 at 14.48.41.jpeg",
-    "/ok-feedbacks  (6).jpeg",
-    "/feedbacks  (16).jpeg",
-    "/feedbacks  (12).jpeg",
-    "/feedbacks  (11).jpeg",
-    "/feedbacks  (9).jpeg"
+    "/feedbacks-5.jpeg",
+    "/feedbacks-7.jpeg",
+    "/igor-abreu-marco.jpeg",
+    "/bosquerolli.png",
+    "/lara.jpeg",
+    "/whatsapp-01.jpeg",
+    "/whatsapp-02.jpeg",
+    "/whatsapp-11-1.jpeg",
+    "/whatsapp-11.jpeg",
+    "/ok-feedbacks-6.jpeg",
+    "/feedbacks-16.jpeg",
+    "/feedbacks-12.jpeg",
+    "/feedbacks-11.jpeg",
+    "/feedbacks-9.jpeg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -673,7 +673,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/Safe 1501-84.jpg" 
+              src="/safe-1501-84.jpg" 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
