@@ -809,7 +809,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="bg-ink border-t border-muted-15 py-10 px-6 text-center text-[12px] text-zinc-500 font-medium tracking-[0.06em] leading-loose">
-        © Prospecção Insana 2.0 · Rodrigo · Consultoria Comercial Jurídica<br />
+        © 2026 Prospecção Insana 2.0 · Rodrigo · Consultoria Comercial Jurídica<br />
         Todas as estratégias respeitam o Código de Ética da OAB
       </footer>
 
