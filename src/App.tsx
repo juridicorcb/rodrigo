@@ -95,12 +95,12 @@ export default function App() {
 
   const handleCTA = (message: string) => {
     const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/5500000000000?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/5551996655654?text=${encoded}`, '_blank');
   };
 
   return (
     <div className="min-h-screen selection:bg-brand selection:text-ink">
-      <h2 className="sr-only">Prospecção Insana 2.0 — Página de vendas da consultoria comercial jurídica com Rodrigo</h2>
+      <h2 className="sr-only">Prospecção Insana - Rodrigo Lima — Página de vendas da consultoria comercial jurídica com Rodrigo</h2>
 
       {/* TOPBAR MARQUEE */}
       <div className="bg-ink-2 border-brand-border py-4 border-b overflow-hidden relative flex">
@@ -140,7 +140,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/logo.png" 
+              src="/logo-full.png" 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -188,7 +188,7 @@ export default function App() {
           <motion.button 
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            onClick={() => handleCTA('Quero falar com o Rodrigo pelo WhatsApp sobre a consultoria Prospecção Insana 2.0')}
+            onClick={() => handleCTA('Quero falar com o Rodrigo pelo WhatsApp sobre a consultoria Prospecção Insana - Rodrigo Lima')}
             className="w-full sm:w-auto inline-flex justify-center items-center bg-brand hover:bg-brand-lt text-ink text-[14px] sm:text-[17px] font-extrabold tracking-wider uppercase px-6 sm:px-14 py-4 sm:py-5.5 transition-colors cursor-pointer shadow-xl max-w-full"
           >
             Quero minha vaga no WhatsApp →
@@ -572,7 +572,7 @@ export default function App() {
           <motion.button 
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            onClick={() => handleCTA('Quero garantir minha vaga na consultoria Prospecção Insana 2.0')}
+            onClick={() => handleCTA('Quero garantir minha vaga na consultoria Prospecção Insana - Rodrigo Lima')}
             className="w-full sm:w-auto inline-flex justify-center items-center bg-brand hover:bg-brand-lt text-ink text-[14px] sm:text-[16px] font-extrabold tracking-widest uppercase px-6 sm:px-12 py-4 sm:py-5 transition-colors cursor-pointer shadow-xl max-w-full"
           >
             Garantir minha vaga →
@@ -791,7 +791,7 @@ export default function App() {
           <motion.button 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => handleCTA('Quero entrar em contato pelo WhatsApp e garantir minha vaga na consultoria Prospecção Insana 2.0 com o Rodrigo')}
+            onClick={() => handleCTA('Quero entrar em contato pelo WhatsApp e garantir minha vaga na consultoria Prospecção Insana - Rodrigo Lima com o Rodrigo')}
             className="w-full sm:w-auto inline-flex justify-center items-center bg-brand hover:bg-brand-lt text-ink text-[14px] sm:text-[17px] font-black tracking-wider uppercase px-6 sm:px-14 py-4 sm:py-5.5 transition-colors cursor-pointer shadow-2xl max-w-full leading-tight text-center"
           >
              Falar com Rodrigo no WhatsApp →
@@ -805,7 +805,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="bg-ink border-t border-muted-15 py-10 px-6 text-center text-[12px] text-zinc-500 font-medium tracking-[0.06em] leading-loose">
-        © 2026 Prospecção Insana 2.0 · Rodrigo · Consultoria Comercial Jurídica<br />
+        © 2026 Prospecção Insana - Rodrigo Lima · Consultoria Comercial Jurídica<br />
         Todas as estratégias respeitam o Código de Ética da OAB
       </footer>
 
