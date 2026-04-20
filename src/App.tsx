@@ -791,7 +791,7 @@ export default function App() {
           <motion.button 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => handleCTA('Quero entrar em contato pelo WhatsApp e garantir minha vaga na consultoria Prospecção Insana - Rodrigo Lima com o Rodrigo')}
+            onClick={() => handleCTA('Quero entrar em contato pelo WhatsApp e garantir minha vaga na consultoria Prospecção Insana - Rodrigo Lima')}
             className="w-full sm:w-auto inline-flex justify-center items-center bg-brand hover:bg-brand-lt text-ink text-[14px] sm:text-[17px] font-black tracking-wider uppercase px-6 sm:px-14 py-4 sm:py-5.5 transition-colors cursor-pointer shadow-2xl max-w-full leading-tight text-center"
           >
              Falar com Rodrigo no WhatsApp →
