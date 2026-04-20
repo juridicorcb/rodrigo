@@ -28,21 +28,6 @@ import {
   ChevronRight
 } from "lucide-react";
 
-import img1 from "./feedbacks  (5).jpeg";
-import img2 from "./feedbacks  (7).jpeg";
-import img3 from "./IGOR ABREU MARÇO.jpeg";
-import img4 from "./Bosquerolli.PNG";
-import img5 from "./lara .jpeg";
-import img6 from "./WhatsApp Image 2026-03-01 at 12.42.46.jpeg";
-import img7 from "./WhatsApp Image 2026-03-02 at 12.19.46.jpeg";
-import img8 from "./WhatsApp Image 2026-03-11 at 14.48.41 (1).jpeg";
-import img9 from "./WhatsApp Image 2026-03-11 at 14.48.41.jpeg";
-import img10 from "./ok-feedbacks  (6).jpeg";
-import img11 from "./feedbacks  (16).jpeg";
-import img12 from "./feedbacks  (12).jpeg";
-import img13 from "./feedbacks  (11).jpeg";
-import img14 from "./feedbacks  (9).jpeg";
-
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
   whileInView: { opacity: 1, y: 0 },
@@ -64,20 +49,20 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10,
-    img11,
-    img12,
-    img13,
-    img14
+    "/feedbacks  (5).jpeg",
+    "/feedbacks  (7).jpeg",
+    "/IGOR ABREU MARÇO.jpeg",
+    "/Bosquerolli.PNG",
+    "/lara .jpeg",
+    "/WhatsApp Image 2026-03-01 at 12.42.46.jpeg",
+    "/WhatsApp Image 2026-03-02 at 12.19.46.jpeg",
+    "/WhatsApp Image 2026-03-11 at 14.48.41 (1).jpeg",
+    "/WhatsApp Image 2026-03-11 at 14.48.41.jpeg",
+    "/ok-feedbacks  (6).jpeg",
+    "/feedbacks  (16).jpeg",
+    "/feedbacks  (12).jpeg",
+    "/feedbacks  (11).jpeg",
+    "/feedbacks  (9).jpeg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
