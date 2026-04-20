@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Merriweather", serif;
+
+  --color-ink: #0A0A0A;
+  --color-ink-2: #111111;
+  --color-ink-3: #1A1A1A;
+  --color-brand: #58E09D;
+  --color-brand-lt: #8FF5C6;
+  --color-brand-dim: rgba(88, 224, 157, 0.12);
+  --color-brand-border: rgba(88, 224, 157, 0.2);
+  --color-cream: #F2EAD8;
+  --color-cream-2: #D9CDB4;
+  --color-muted-50: rgba(242, 234, 216, 0.5);
+  --color-muted-15: rgba(242, 234, 216, 0.15);
+  --color-brand-red: #C0392B;
+  --color-brand-orange: #C05A14;
+}
+
+@layer base {
+  body {
+    @apply bg-ink text-cream font-sans antialiased;
+  }
+}
+
+.divider {
+  @apply border-t border-muted-15 w-full;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
