@@ -49,20 +49,20 @@ export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
-    "/depo-01.webp",
-    "/depo-02.webp",
-    "/depo-03.webp",
-    "/depo-04.webp",
-    "/depo-05.webp",
-    "/depo-06.webp",
-    "/depo-07.webp",
-    "/depo-08.webp",
-    "/depo-09.webp",
-    "/depo-10.webp",
-    "/depo-11.webp",
-    "/depo-12.webp",
-    "/depo-13.webp",
-    "/depo-14.webp"
+    "/depo-01.jpeg",
+    "/depo-02.jpeg",
+    "/depo-03.jpeg",
+    "/depo-04.png",
+    "/depo-05.jpeg",
+    "/depo-06.jpeg",
+    "/depo-07.jpeg",
+    "/depo-08.jpeg",
+    "/depo-09.jpeg",
+    "/depo-10.jpeg",
+    "/depo-11.jpeg",
+    "/depo-12.jpeg",
+    "/depo-13.jpeg",
+    "/depo-14.jpeg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -144,7 +144,7 @@ export default function App() {
             className="mb-8 flex justify-center"
           >
             <img 
-              src="/legal-comercial-logo.webp" 
+              src="/legal-comercial-logo.png" 
               alt="Prospecção Insana Logo" 
               className="h-16 sm:h-20 w-auto"
               referrerPolicy="no-referrer"
@@ -673,7 +673,7 @@ export default function App() {
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/5] sm:aspect-square lg:aspect-[4/5] bg-ink-3 border border-muted-15 relative overflow-hidden group">
             <img 
-              src="/perfil-consultor.webp" 
+              src="/perfil-consultor.jpg" 
               alt="Rodrigo - Consultoria Comercial Jurídica" 
               className="w-full h-full object-cover object-top transition-all duration-700 opacity-90 group-hover:opacity-100"
               referrerPolicy="no-referrer"
