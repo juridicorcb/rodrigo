@@ -51,14 +51,21 @@ export default function App() {
   const testimonials = [
     "/FDB.jpeg", "/FDB (2).jpeg", "/FDB (3).jpeg", "/FDB (4).jpeg", "/FDB (5).jpeg", 
     "/FDB (6).jpeg", "/FDB (7).jpeg", "/FDB (8).jpeg", "/FDB (9).jpeg", "/FDB (10).jpeg", 
-    "/FDB (11).jpeg", "/FDB (12).jpeg", "/FDB (13).jpeg", "/FDB (14).jpeg", "/FDB (15).jpeg", "/FDB (16).png"
+    "/FDB (11).jpeg", "/FDB (12).jpeg", "/FDB (13).jpeg", "/FDB (14).jpeg", "/FDB (15).jpeg"
   ];
   const totalSlides = testimonials.length;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const handleScroll = () => {
     if (!carouselRef.current) return;
-    const scrollLeft = carouselRef.current.scrollLeft;
+    const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
+    
+    // Check if we are at the very end
+    if (Math.ceil(scrollLeft + clientWidth) >= scrollWidth - 10) {
+      setCurrentSlide(totalSlides - 1);
+      return;
+    }
+
     const itemWidth = carouselRef.current.children[0].clientWidth;
     const gap = 24; // gap-6
     const newIndex = Math.round(scrollLeft / (itemWidth + gap));
